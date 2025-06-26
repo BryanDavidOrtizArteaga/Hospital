@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consulta"
+    android:background="#CCCCCC">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:hint="@string/Uid_Paciente"
+            android:id="@+id/Uid_Paciente">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:hint="@string/Nombre_Paciente"
+            android:id="@+id/Nombre_Paciente">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:hint="@string/Correo_Paciente"
+            android:id="@+id/Correo_Paciente">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:hint="@string/Fecha_Hora"
+            android:id="@+id/Fecha_Hora">
+
+        </TextView>
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="17dp"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:hint="@string/Sintomas"
+            android:id="@+id/Sintomas">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="17dp"
+            android:textSize="20sp"
+            android:minHeight="130dp"
+            android:gravity="start"
+            android:hint="@string/Diagnostico"
+            android:id="@+id/Diagnostico">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="17dp"
+            android:textSize="20sp"
+            android:minHeight="130dp"
+            android:gravity="start"
+            android:hint="@string/Tratamiento"
+            android:id="@+id/Tratamiento">
+
+        </EditText>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/Calendario"
+                android:text="@string/Calendario"
+                app:icon="@drawable/outline_calendar_month_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="10dp">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/Fecha"
+                android:text="@string/Fecha"
+                android:textSize="20sp"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Estado"
+            android:id="@+id/Estado"
+            android:textSize="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/Boton_Guardar_Consulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/Boton_Guardar_Consulta"
+            android:backgroundTint="?attr/colorPrimary">
+
+        </Button>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

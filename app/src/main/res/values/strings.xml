@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">HOSPITAL</string>
+    <string name="Login">Ingresar</string>
+    <string name="Bnv">Bienvenido de nuevo!</string>
+    <string name="Correo">Correo Electrónico</string>
+    <string name="CorreoEJ">ejemplo1234@gmail.com</string>
+    <string name="CorreoE">ejemplo1234@gmail.com</string>
+    <string name="Contra">Contraseña</string>
+    <string name="EjC">***********</string>
+    <string name="ContraE">***********</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Ej">Ejemplo</string>
+    <string name="ConContra">Confirmar Contraseña</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="BnvR">Crea una nueva cuenta!</string>
+    <string name="NTC">No tienes una cuenta?</string>
+    <string name="Registrese">Registrese</string>"
+    <string name="RE">REGISTRARSE</string>
+    <string name="IN">INGRESAR</string>
+    <string name="TUC">Tengo una cuenta</string>
+    <string name="Uid_Paciente">Uid del medico</string>
+    <string name="Nombre_Paciente">Nombre del medico</string>
+    <string name="Correo_Paciente">Correo del medico</string>
+    <string name="Fecha_Hora">Fecha y hora</string>
+    <string name="Sintomas">Sintomas</string>
+    <string name="Diagnostico">Diagnostico</string>
+    <string name="Tratamiento">Tratamiento</string>
+    <string name="Calendario">Calendario</string>
+    <string name="Estado">No concretado</string>
+    <string name="Fecha">00/00/0000</string>
+    <string name="Asignar_Consulta">Asignar consulta</string>
+    <string name="Ver_Consultas">Ver consultas</string>
+    <string name="BNE">Bienvenido de nuevo!</string>
+    <string name="BNEQ">¿Qué desea hace hoy?</string>
+    <string name="Boton_Guardar_Consulta">Guardar consulta</string>
+    <string name="textViewNoConsultas">No hay consultas registradas.</string>
+
+
+
+</resources>

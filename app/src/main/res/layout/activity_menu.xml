@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Menu"
+    android:background="#CCCCCC">
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/BNE"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="@string/BNEQ"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/Asignar_Consulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/Asignar_Consulta"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Ver_Consultas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/Ver_Consultas"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+
+        </Button>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

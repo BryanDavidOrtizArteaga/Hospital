@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#CCCCCC">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="@string/Login"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/Bnv"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/Correo"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:textColorHint="@color/black">
+
+            <EditText
+                android:id="@+id/CorreoE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:drawableStart="@drawable/outline_mail_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/CorreoEJ"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textColor="@color/black">
+
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/Contra"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:textColorHint="@color/black"
+            app:hintEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/black">
+
+            <EditText
+                android:id="@+id/ContraE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:drawableStart="@drawable/outline_lock_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/ContraE"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:textColor="@color/black">
+
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/IN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/IN"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="40dp"
+            android:text="@string/NTC"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Registrese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/Registrese"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
